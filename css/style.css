@@ -379,7 +379,8 @@ form .button {
   }
   
   form .button {
-    margin: 1rem 0;
+    width: 90vw;
+    margin: 1rem auto;
   }
   
   #bg-mapa {
@@ -437,7 +438,7 @@ form .button {
     width: 90vw;
     height: auto;
     font-size: 1.3rem;
-    margin: 20px 10px;
+    margin: 20px auto;
   }
 
   footer {
