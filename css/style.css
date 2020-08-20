@@ -239,31 +239,28 @@ form .button {
 
 /*Parceiros*/
 
-.parceiros {
-  margin-top: 50px;
+#parceiros {
+  width: 90vw;
+  margin: 2rem auto;
 }
 
-.parceiros p {
-  font-family: Montserrat;
-  font-size: 48px;
+#parceiros p {
+  font-family: 'Montserrat';
+  font-size: 2.6rem;
+  text-align: center;
   line-height: 84px;
   color: #20509e;
   display: block;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 10rem;
 }
 
-.parceiros p span {
+#parceiros p span {
   color: #00cfc1;
+  font-weight: 600;
 }
 
-.parceiros ul li {
-  position: relative;
-  display: inline-block;
-  align-items: center;
-  margin: 0 15px;
-  left: 150px;
+#marcas-parceiras {
+  display: flex;
+  justify-content: center;
 }
 
 /*Footer*/
@@ -413,12 +410,31 @@ form .button {
   }
   
   .human {
-    display: none;
+    flex-direction: column;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    padding: 2rem;
+    border-radius: 0;
+  }
+
+  .human .esquerdo {
+    width: 250px;
+  }
+
+  .human h1 {
+    font-size: 50px;
+    line-height: normal;
+  }
+
+  .human button {
+    width: 200px;
+    font-size: 1rem;
   }
   
   .bro {
     flex-direction: column;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
   
   .bro img {
@@ -440,6 +456,24 @@ form .button {
     height: auto;
     font-size: 1.3rem;
     margin: 20px auto;
+  }
+
+  #parceiros {
+    display: none;
+  }
+
+  #parceiros p {
+    font-size: 1.8rem;
+    line-height: normal;
+    text-align: left;
+  }
+
+  #marcas-parceiras {
+    flex-direction: column;
+  }
+
+  #marcas-parceiras img {
+    width: 50%;
   }
 
   footer {
