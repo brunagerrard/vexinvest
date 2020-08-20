@@ -7,6 +7,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="icon" href="favicon.ico" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -30,11 +32,44 @@
       gtag("config", "UA-175636380-1");
     </script>
 
+    <!-- Hotjar Tracking Code for vexinvest.netlify.app -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1949172, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
     <title>VexInvest</title>
+
+    <meta
+      name="description"
+      content="Conteúdo diversificado sobre investimento com Bots de última geração."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="VexInvest - Investimentos com Bots" />
+    <meta
+      property="og:description"
+      content="Conteúdo diversificado sobre investimento com Bots de última geração."
+    />
+    <meta property="og:url" content="https://vexinvest.netlify.app" />
+    <meta
+      property="og:img"
+      content="https://vexinvest.netlify.app/assets/intro.svg"
+    />
   </head>
   <body>
     <header class="header" id="clique">
-      <a href="index.html">
+      <a href="index.html" title="Vá para pagina inicial">
         <img src="assets/Logo.svg" alt="logo VexInvest" id="logo" />
         <img
           src="/assets/imgs-mobile/v-logo.png"
@@ -44,34 +79,43 @@
       </a>
     </header>
 
-    <img src="/assets/bg-mapa.jpg" id="bg-mapa" />
-    <img src="/assets/imgs-mobile/bg.png" id="bg-mapa-sm">
+    <img src="/assets/bg-mapa.jpg" id="bg-mapa" alt="mapa colorido" />
+    <img
+      src="/assets/imgs-mobile/bg.png"
+      id="bg-mapa-sm"
+      alt="mapa colorido mobile"
+    />
 
     <section class="introducao">
       <div class="esquerdo">
         <h1>Automatize e <span>alcance</span> os seus sonhos</h1>
         <p>
-          Você escolhe a estratégia e o robô a executa enquanto você planeja o que fazer com seu tempo livre. Para saber mais, baixe o infográfico.
+          Você escolhe a estratégia e o robô a executa enquanto você planeja o
+          que fazer com seu tempo livre. Para saber mais, baixe o infográfico.
         </p>
 
         <form
           method="POST"
           action="https://smtl.gama.academy/leads/7f2b2100-dcac-11ea-91f1-99fb0c9231dc"
         >
-            <input
-              name="name"
-              type="text"
-              pattern="^\D{2,}\s[\D\s]{2,}$"
-              placeholder="Nome completo"
-              id="home"
-              required
-            />
-            <input
-              name="email"
-              type="email"
-              placeholder="Seu melhor e-mail"
-              required
-            />
+          <input
+            name="name"
+            type="text"
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            placeholder="Nome completo"
+            id="home"
+            required
+          />
+          <label for="home" class="sr-only">Nome Completo</label>
+
+          <input
+            name="email"
+            type="email"
+            placeholder="Seu melhor e-mail"
+            required
+            id="emailb"
+          />
+          <label for="emailb" class="sr-only">E-mail</label>
           <input
             name="redirectTo"
             type="hidden"
@@ -93,13 +137,11 @@
     <section id="passos">
       <div class="cada-passo">
         <img src="/assets/criar.svg" alt=" imagem inspiradora" />
-        <p class="passo-texto criar">
-          Defina sua <span>estratégia</span>
-        </p>
+        <p class="passo-texto criar">Defina sua <span>estratégia</span></p>
       </div>
 
       <div class="cada-passo">
-        <img src="/assets/quadrinhos-fofo.svg" alt="" />
+        <img src="/assets/quadrinhos-fofo.svg" alt=" quadrinhos fofos" />
         <p class="passo-texto personalize">
           <span>Personalize </span>os parâmetros
         </p>
@@ -107,9 +149,7 @@
 
       <div class="cada-passo">
         <img src="/assets/robozinho-fofo.svg" alt="" id="robofdp" />
-        <p class="passo-texto">
-          Deixe o robô <span>executar</span>
-        </p>
+        <p class="passo-texto">Deixe o robô <span>executar</span></p>
       </div>
     </section>
 
@@ -120,7 +160,11 @@
           <span>X</span> Robô
         </h1>
         <p>
-          Quantos ativos você consegue acompanhar durante o pregão? Robôs investidores conseguem acompanhar todos os ativos do mercado simultaneamente. Descubra o que mais os bots podem fazer por você!
+          Quantos ativos você consegue acompanhar durante o pregão? Robôs
+          investidores conseguem acompanhar todos os ativos do mercado
+          simultaneamente.
+          <br /><br />
+          Descubra o que mais os bots podem fazer por você!
         </p>
       </div>
       <div class="direito">
@@ -134,7 +178,7 @@
     </section>
 
     <section class="bro">
-      <img src="/assets/bro.svg" alt="" />
+      <img src="/assets/bro.svg" alt=" humano com duvida" />
       <div class="direito">
         <h1>
           Quer saber mais sobre os
@@ -153,59 +197,119 @@
       <p>OPERE ATRAVÉS DAS CORRETORAS <span>PARCEIRAS</span></p>
 
       <div id="marcas-parceiras">
-        <a href="https://www.clear.com.br/" target="_blank">
-          <img src="/assets/marcas/clear.svg" alt="Logo Clear Corretora">
+        <a
+          href="https://www.clear.com.br/"
+          target="_blank"
+          rel="noopener"
+          title="Vá para a página da clear"
+        >
+          <img src="/assets/clear.svg" alt="Logo Clear Corretora" />
         </a>
-        <a href="https://www.toroinvestimentos.com.br/" target="_blank">
-          <img src="/assets/marcas/toro.svg" alt="Logo Toro">
+        <a
+          href="https://www.toroinvestimentos.com.br/"
+          target="_blank"
+          rel="noopener"
+          title="Vá para a página da toror"
+        >
+          <img src="/assets/toro.svg" alt="Logo Toro" />
         </a>
-        <a href="https://www.xpi.com.br/" target="_blank">
-          <img src="/assets/marcas/xpinvestimentos.svg" alt="Logo XP Investimentos">
+        <a
+          href="https://www.xpi.com.br/"
+          target="_blank"
+          rel="noopener"
+          title="Vá para a página da xp"
+        >
+          <img src="/assets/xpinvestimentos.svg" alt="Logo XP Investimentos" />
         </a>
-        <a href="https://www.modalmais.com.br/" target="_blank">
-          <img src="/assets/marcas/modals.svg" alt="Logo Modalmais">
+        <a
+          href="https://www.modalmais.com.br/"
+          target="_blank"
+          rel="noopener"
+          title="Vá para a página da modals"
+        >
+          <img src="/assets/modals.svg" alt="Logo Modalmais" />
         </a>
-        <a href="https://www.terrainvestimentos.com.br/" target="_blank">
-          <img src="/assets/marcas/terra-investimentos.svg" alt="Logo Terra Investimentos">
+        <a
+          href="https://www.terrainvestimentos.com.br/"
+          target="_blank"
+          rel="noopener"
+          title="Vá para a página da terra investimentos"
+        >
+          <img
+            src="/assets/terra-investimentos.svg"
+            alt="Logo Terra Investimentos"
+          />
         </a>
       </div>
     </section>
 
+    <section id="slider">
+      <div id="passador" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#passador" data-slide-to="0" class="active"></li>
+    <li data-target="#passador" data-slide-to="1"></li>
+    <li data-target="#passador" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>Robôs que ajudam na sua estratégia</p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto1.jpg" alt="Primeiro slide">
+          <p>Um dos maiores desafios de investidores e traders é <span class="azul-escuro">controlar o emocional</span> para seguir sua estratégia, saber quando entrar e sair de uma operação, respeitar seu stop. Quanto mais emoção você sente durante um trade, maior a probabilidade de você fazer besteira. <br><br><span class="azul-escuro-destacado">Confie e siga sua estratégia.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>O novo normal na <strong>B3</strong></p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto2.jpg" alt="Segundo slide">
+          <p>De março a julho deste ano, <span class="azul-escuro">mais de 900 mil CPFs</span> foram cadastrados na Bolsa. Além deles, a novidade é a <span class="azul-escuro">chegada dos robôs traders</span>, programados para executar sua estratégia. Você monitora as ações do bot e o deixa trabalhando enquanto <span class="azul-escuro-destacado">você tem mais tempo para usar como quiser</span>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>Amplie seus investimentos</p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto3.jpg" alt="Terceiro slide">
+          <p>Faça o download do nosso infográfico, conheça todos os benefícios e <span class="azul-escuro-destacado">comece a investir agora mesmo!</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#passador" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#passador" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+    </section>
+
     <footer class="footer">
-      <ul>
-        <li>
-          <a href="https://dossie-reconvexo.vercel.app/" target="_blank"
-            ><img src="/assets/reconvexosimbolo 1.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="index.html"><img src="/assets/vexinvest.svg" alt="" /></a>
-        </li>
-        <li>
-          <p>
-            A Vexinvest é uma empresa de tecnologia <br />
-            especializada em investimentos automatizadas <br />
-            na bolsa de valores.<br />
-            Conheça nossos produtos e revolucione sua carteira.
-          </p>
-        </li>
-      </ul>
+      <div id="footer-content">
+        <img src="/assets/vexinvest.svg" alt="vexinvest logo reduzida"/>
+        <p>
+          A Vexinvest é uma empresa de tecnologia especializada em investimentos automatizadas na bolsa de valores. Conheça nossos produtos e revolucione sua carteira.
+        </p>
+      </div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
