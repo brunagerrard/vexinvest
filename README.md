@@ -1,7 +1,7 @@
 <h1 align="center">VexInvest</h1>
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/KD7j4Yq0GVhddWqAuH/giphy.gif" height="250px"> <img src="https://media2.giphy.com/media/JPm6aTvzjJ2Nuwy9Ir/giphy.gif" height="250px">
+  <img src="https://media.giphy.com/media/dvmkOagfxYtXkTXmsO/giphy.gif" height="250px"> <img src="https://media.giphy.com/media/IcjHkCSB3uUWSK6aKK/giphy.gif" height="250px">
 </p>
 
 ## Sobre o projeto
