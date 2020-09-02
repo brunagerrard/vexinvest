@@ -7,9 +7,6 @@
 ## Sobre o projeto
 VexInvest é uma empresa fictícia de automatização de investimentos na bolsa de valores. A landing page da marca foi criada como solução para o assignment *Show Me The Leads*, um projeto do Gama Experience que visa captar leads qualificados para a Smarttbot.
 
-## Esta versão
-Este repositório guarda a versão beta da página VexInvest, onde conduzo testes e implementação de melhorias sem afetar o deploy principal.
-
 ## A equipe
 O grupo Reconvexo é composto por dez pessoas distribuídas em 4 stacks de conhecimento: desenvolvimento front-end (hacker), design UI/UX (hipster), inside sales (hustler) e marketing digital (hyper). Elas são:
 
